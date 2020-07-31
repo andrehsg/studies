@@ -1,0 +1,27 @@
+input ProductInput {
+  id: Int!
+  name: String!
+  description: String!
+}
+
+type Product {
+  id: Int!
+  name: String!
+  description: String!
+}
+
+type Query {
+  allProducts: [Product]
+  product(id: Int!): Product
+}
+
+type Mutation {
+    createProduct(productInput: ProductInput): Int
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+
+}
+
