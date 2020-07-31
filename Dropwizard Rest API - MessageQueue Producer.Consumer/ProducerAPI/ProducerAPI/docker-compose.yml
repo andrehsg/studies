@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  localstack:
+    image: localstack/localstack:0.10.7
+    container_name: localstack
+    ports:
+      - "4576:4576"
+    environment:
+      - SERVICES=sqs
+    networks:
+      - custom_network
+
+  application:
+    image: imagem_producer
+    container_name: producerAPI
+    ports:
+      - "9179:9179"
+    networks:
+      - custom_network
+
+
+networks:
+  custom_network:
+    name: custom_network

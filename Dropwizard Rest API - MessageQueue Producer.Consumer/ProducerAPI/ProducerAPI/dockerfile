@@ -1,0 +1,6 @@
+FROM java:8-jdk-alpine
+COPY ./target/ProducerAPI-1.0-SNAPSHOT.jar /usr/app/
+COPY ./config.yml /usr/app/
+WORKDIR /usr/app
+EXPOSE 9179
+ENTRYPOINT ["java", "-cp", "ProducerAPI-1.0-SNAPSHOT.jar", "com.daitan.pocmiddleware.ProducerAPIApplication", "server", "config.yml"]

@@ -1,0 +1,7 @@
+com/daitan/pocmiddleware/ProducerAPIApplication.class
+com/daitan/pocmiddleware/resources/ProductResource.class
+com/daitan/pocmiddleware/core/AmazonQueueService.class
+com/daitan/pocmiddleware/modules/ProjectModule.class
+com/daitan/pocmiddleware/ProducerAPIConfiguration.class
+com/daitan/pocmiddleware/api/Product.class
+com/daitan/pocmiddleware/api/Status.class
