@@ -1,0 +1,12 @@
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/core/QueueConsumer.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/api/Product.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/db/IProductDAO.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/util/CassandraConnector.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/api/ProductCache.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/ConsumerAPIApplication.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/db/KeyspaceDAO.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/core/AmazonQueueService.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/modules/ProductModule.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/db/ProductDAO.java
+/home/aramos/Documents/Alianza/GitLab/POC/poc-middleware/Andre_POC/ConsumerAPI/ConsumerAPI/src/main/java/com/daitan/pocmiddleware/ConsumerAPIConfiguration.java

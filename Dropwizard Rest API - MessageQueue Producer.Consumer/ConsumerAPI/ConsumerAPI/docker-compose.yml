@@ -1,0 +1,31 @@
+version: '2.1'
+
+services:
+
+  application:
+    image: imagem_consumer
+    container_name: consumerAPI
+    ports:
+      - "9189:9189"
+    depends_on:
+      cassandra:
+        condition: service_healthy
+    networks:
+      - custom_network
+
+  cassandra:
+    image: cassandra
+    container_name: cassandraDB
+    healthcheck:
+      test: ["CMD-SHELL", "[ $$(nodetool statusgossip) = running ]"]
+      interval: 30s
+      timeout: 5s
+      retries: 50
+    ports:
+      - "9042:9042"
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    name: custom_network

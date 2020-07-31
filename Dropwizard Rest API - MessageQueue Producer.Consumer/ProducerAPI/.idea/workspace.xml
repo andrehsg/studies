@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1058e9e-43f0-4689-8b8b-7eca1e00767c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_java_dataloader_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_kickstart_graphql_java_servlet_7_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_graphql_java_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_graphql_java_14_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_graphql_java_servlet_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_graphql_java_tools_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__com_graphql_java_graphql_java_tools_5_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/.idea/libraries/Maven__ru_vyarus_generics_resolver_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/graph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/graph.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/graphApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/graphApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/module/ProjectModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/module/ProjectModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/resolver/Mutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/resolver/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/resources/GraphQLEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/java/graph/resources/GraphQLEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/resources/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphQL - Middleware/graph/src/main/resources/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_inject_guice_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_helger_profiler_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_http_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_configuration_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_core_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_jackson_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_jersey_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_jetty_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_lifecycle_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_logging_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_metrics_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_request_logging_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_servlets_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_util_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_dropwizard_validation_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_logback_logback_throttling_appender_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_annotation_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_healthchecks_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jersey2_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jetty9_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jmx_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_logback_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_dropwizard_metrics_metrics_servlets_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_buffer_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_codec_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_common_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_handler_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_resolver_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_transport_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_apache_commons_commons_text_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_checkerframework_checker_qual_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_24_v20191120.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_eclipse_jetty_toolchain_setuid_jetty_setuid_java_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_bean_validation_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_metainf_services_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_29_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_javassist_javassist_3_26_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__org_yaml_snakeyaml_1_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_annotations_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_apache_client_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_auth_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_aws_core_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_aws_query_protocol_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_http_client_spi_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_netty_nio_client_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_profiles_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_protocol_core_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_regions_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_sdk_core_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_sqs_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_awssdk_utils_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/libraries/Maven__software_amazon_flow_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/ProducerAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/ProducerAPIApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/ProducerAPIConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/api/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/api/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/core/AmazonQueueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/modules/ProjectModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/src/test/java/com/daitan/pocmiddleware/resources/ProducerResourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.core.AmazonQueueServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.resources.ProducerResourceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.core.AmazonQueueServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.resources.ProducerResourceTest.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fSEFq2cf2z6BGtWRVAzUB3cid4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1058e9e-43f0-4689-8b8b-7eca1e00767c" name="Default Changelist" comment="" />
+      <created>1596202992922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596202992922</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+com/daitan/pocmiddleware/resources/ProductResource.class
+com/daitan/pocmiddleware/core/AmazonQueueService.class
+com/daitan/pocmiddleware/db/KeyspaceDAO.class
+com/daitan/pocmiddleware/api/ProductCache.class
+com/daitan/pocmiddleware/db/ProductDAO.class
+com/daitan/pocmiddleware/util/CassandraConnector.class
+com/daitan/pocmiddleware/core/QueueConsumer.class
+com/daitan/pocmiddleware/ConsumerAPIConfiguration.class
+com/daitan/pocmiddleware/ConsumerAPIApplication.class
+com/daitan/pocmiddleware/modules/ProductModule.class
+com/daitan/pocmiddleware/api/Product.class
+com/daitan/pocmiddleware/db/IProductDAO.class

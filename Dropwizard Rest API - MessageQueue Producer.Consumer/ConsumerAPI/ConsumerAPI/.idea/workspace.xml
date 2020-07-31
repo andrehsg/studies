@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6e09e83-6207-4809-95ab-997bf838db0f" name="Default Changelist" comment="Fix read queue issue when queue does not exist">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/modules/ProductModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/main/java/com/daitan/pocmiddleware/api/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/ConsumerAPIApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/ConsumerAPIApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/core/QueueConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/core/QueueConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/db/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/db/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ConsumerAPI-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ConsumerAPI-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ConsumerAPI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ConsumerAPI-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-ConsumerAPI-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-ConsumerAPI-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.daitan.pocmiddleware.core.AmazonQueueServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.daitan.pocmiddleware.core.AmazonQueueServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.daitan.pocmiddleware.core.AmazonQueueServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.daitan.pocmiddleware.core.AmazonQueueServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/main/java/com/daitan/pocmiddleware/resources/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/test/java/com/daitan/pocmiddleware/resources/ProducerResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/src/test/java/com/daitan/pocmiddleware/resources/ProducerResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.core.AmazonQueueServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.core.AmazonQueueServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.resources.ProducerResourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/TEST-com.daitan.pocmiddleware.resources.ProducerResourceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.core.AmazonQueueServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.core.AmazonQueueServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.resources.ProducerResourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/surefire-reports/com.daitan.pocmiddleware.resources.ProducerResourceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProducerAPI/ProducerAPI/target/test-classes/mockito-extensions/org.mockito.plugins.MockMaker" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="310" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1WqAuEVcq13jUTAQxRa5lSGXecj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Archetype/alz-dropwizard-archetype/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.daitan.pocmiddleware.core" />
+      <recent name="com.daitan.pocmiddleware.resources" />
+      <recent name="com.daitan.pocmiddleware.util" />
+      <recent name="com.daitan.pocmiddleware.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AmazonQueueServiceTest">
+    <configuration name="ConsumerAPIApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daitan.pocmiddleware.ConsumerAPIApplication" />
+      <module name="ConsumerAPI" />
+      <option name="PROGRAM_PARAMETERS" value="server config.yml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daitan.pocmiddleware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonQueueServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConsumerAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daitan.pocmiddleware.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daitan.pocmiddleware.core" />
+      <option name="MAIN_CLASS_NAME" value="com.daitan.pocmiddleware.core.AmazonQueueServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonQueueServiceTest.testSendMsgInAQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConsumerAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daitan.pocmiddleware.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daitan.pocmiddleware.core" />
+      <option name="MAIN_CLASS_NAME" value="com.daitan.pocmiddleware.core.AmazonQueueServiceTest" />
+      <option name="METHOD_NAME" value="testSendMsgInAQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueConsumerTest.testReadQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConsumerAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daitan.pocmiddleware.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daitan.pocmiddleware.core" />
+      <option name="MAIN_CLASS_NAME" value="com.daitan.pocmiddleware.core.QueueConsumerTest" />
+      <option name="METHOD_NAME" value="testReadQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml.localstack: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="localstack" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AmazonQueueServiceTest" />
+        <item itemvalue="JUnit.AmazonQueueServiceTest.testSendMsgInAQueue" />
+        <item itemvalue="Docker.docker-compose.yml.localstack: Compose Deployment" />
+        <item itemvalue="JUnit.QueueConsumerTest.testReadQueue" />
+        <item itemvalue="Application.ConsumerAPIApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e09e83-6207-4809-95ab-997bf838db0f" name="Default Changelist" comment="" />
+      <created>1579866972007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579866972007</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fix read queue issue when queue does not exist">
+      <created>1580476290073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580476290073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix read queue issue when queue does not exist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix read queue issue when queue does not exist" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="223" width="671" height="659" key="#ConsumerAPIApplication" timestamp="1579867701300">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="223" width="671" height="659" key="#ConsumerAPIApplication/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1579867701300" />
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1581612948530">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581612948530" />
+    <state x="2554" y="258" width="642" height="561" key="#docker-compose.yml.localstack:_Compose_Deployment" timestamp="1580476538510">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2554" y="258" width="642" height="561" key="#docker-compose.yml.localstack:_Compose_Deployment/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580476538510" />
+    <state x="706" y="296" width="1136" height="593" key="#xdebugger.evaluate" timestamp="1579870474282">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="706" y="296" width="1136" height="593" key="#xdebugger.evaluate/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579870474282" />
+    <state x="2295" y="135" width="1159" height="807" key="CommitChangelistDialog2" timestamp="1582290160681">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2295" y="135" width="1159" height="807" key="CommitChangelistDialog2/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582290160681" />
+    <state x="2020" y="98" width="1720" height="882" key="DiffContextDialog" timestamp="1579887922685">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="98" width="1720" height="882" key="DiffContextDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579887922685" />
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582308010329">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582308010329" />
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom" timestamp="1582229057046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582229057046" />
+    <state width="1807" height="268" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581614021600" />
+    <state width="1874" height="276" key="GridCell.Tab.0.center" timestamp="1582229057046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582229057046" />
+    <state width="1807" height="268" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581614021600" />
+    <state width="1874" height="276" key="GridCell.Tab.0.left" timestamp="1582229057046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582229057046" />
+    <state width="1807" height="268" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581614021600" />
+    <state width="1874" height="276" key="GridCell.Tab.0.right" timestamp="1582229057046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="276" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582229057046" />
+    <state width="1807" height="268" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581614021600" />
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom" timestamp="1579893496797">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579893496797" />
+    <state width="1874" height="354" key="GridCell.Tab.1.center" timestamp="1579893496797">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579893496797" />
+    <state width="1874" height="354" key="GridCell.Tab.1.left" timestamp="1579893496797">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579893496797" />
+    <state width="1874" height="354" key="GridCell.Tab.1.right" timestamp="1579893496797">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579893496797" />
+    <state x="561" y="273" width="886" height="574" key="RollbackChangesDialog" timestamp="1580746456221">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2432" y="252" width="886" height="574" key="RollbackChangesDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580486126492" />
+    <state x="561" y="273" key="RollbackChangesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1580746456221" />
+    <state x="2369" y="174" key="SettingsEditor" timestamp="1582307993712">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="174" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582307993712" />
+    <state x="2537" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1582220597273">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2537" y="364" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582220597272" />
+    <state x="653" y="271" width="712" height="578" key="find.popup" timestamp="1581603120554">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="2527" y="250" width="737" height="578" key="find.popup/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581449863084" />
+    <state x="653" y="271" width="712" height="578" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1581603120554" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daitan/pocmiddleware/db/ProductDAO.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/daitan/pocmiddleware/core/AmazonQueueServiceTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/daitan/pocmiddleware/core/QueueConsumerTest.java</url>
+          <line>13</line>
+          <properties class="com.daitan.pocmiddleware.core.QueueConsumerTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConsumerAPI$QueueConsumerTest_testReadQueue.ic" NAME="QueueConsumerTest.testReadQueue Coverage Results" MODIFIED="1579888522769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.daitan.pocmiddleware.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ConsumerAPI$AmazonQueueServiceTest.ic" NAME="AmazonQueueServiceTest Coverage Results" MODIFIED="1579893458773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.daitan.pocmiddleware.core.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ConsumerAPI$AmazonQueueServiceTest_testSendMsgInAQueue.ic" NAME="AmazonQueueServiceTest.testSendMsgInAQueue Coverage Results" MODIFIED="1579893409229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.daitan.pocmiddleware.core.*</FILTER>
+    </SUITE>
+  </component>
+</project>
