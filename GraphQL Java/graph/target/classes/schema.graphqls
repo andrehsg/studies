@@ -16,7 +16,7 @@ type Query {
 }
 
 type Mutation {
-    createProduct(productInput: ProductInput): Int
+    createProduct(productInput: ProductInput): String
 }
 
 schema {

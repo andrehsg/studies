@@ -1,14 +1,11 @@
 graph/api/Product.class
 graph/api/ProductInput.class
-graph/client/HttpClientWrapper.class
 graph/resolver/Query.class
+graph/client/HttpClientWrapper.class
 graph/client/HttpMethodsEnum.class
-graph/resolver/CommandResolver.class
 graph/resolver/Mutation.class
-graph/resolver/MetricResolver.class
 graph/resources/GraphQLEndpoint.class
-graph/resolver/ProductInstanceResolver.class
 graph/graphApplication.class
 graph/module/ProjectModule.class
-graph/resolver/CharacteristicResolver.class
+graph/resolver/ProductResolver.class
 graph/graphConfiguration.class
